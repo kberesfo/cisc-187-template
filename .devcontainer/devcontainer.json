@@ -16,8 +16,8 @@
 				"ms-vscode.cmake-tools",
 				"ms-vscode.cpptools-extension-pack",
 				"GitHub.vscode-pull-request-github",
-				"redhat.vscode-yaml"
-				
+				"redhat.vscode-yaml",
+				"xaver.clang-format"
 			]
 		}
 	}
