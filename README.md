@@ -14,7 +14,7 @@ git clone <instructor-lab-repo-url>
 ```
 then merge template:
 ```
-git remote add template <your-template-repo-url>
+git remote add template https://github.com/kberesfo/cisc-187-template.git
 git fetch template
 git merge template/main --allow-unrelated-histories
 ```
