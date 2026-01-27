@@ -5,7 +5,7 @@
       "name": "Run (gdb): lab",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/lab01",
+      "program": "${workspaceFolder}/build/lab",
       "args": [],
       "cwd": "${workspaceFolder}",
       "MIMode": "gdb",
