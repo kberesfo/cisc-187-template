@@ -18,5 +18,8 @@
   "cmake.loggingLevel": "info",
 
   // format on save
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
 }
