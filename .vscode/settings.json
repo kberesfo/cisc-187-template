@@ -1,0 +1,20 @@
+{
+  // Build out-of-source
+  "cmake.sourceDirectory": "${workspaceFolder}",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+
+  // Use Ninja (fast + consistent in containers)
+  "cmake.generator": "Ninja",
+
+  // Auto-configure on open (nice for class)
+  "cmake.configureOnOpen": true,
+
+  // If you want Debug by default:
+  "cmake.buildType": "Debug",
+
+  // Optional: show compile commands for IntelliSense / clangd
+  "cmake.exportCompileCommandsFile": true,
+
+  // Make the status bar + output less noisy
+  "cmake.loggingLevel": "info"
+}
