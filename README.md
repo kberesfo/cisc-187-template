@@ -18,3 +18,7 @@ git remote add template <your-template-repo-url>
 git fetch template
 git merge template/main --allow-unrelated-histories
 ```
+
+```
+git remote remove template
+```
