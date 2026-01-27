@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run (gdb): lab",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/lab01",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "CMake: Build"
+    }
+  ]
+}
