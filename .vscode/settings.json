@@ -15,5 +15,8 @@
   "cmake.exportCompileCommandsFile": true,
 
   // Make the status bar + output less noisy
-  "cmake.loggingLevel": "info"
+  "cmake.loggingLevel": "info",
+
+  // format on save
+  "editor.formatOnSave": true
 }
