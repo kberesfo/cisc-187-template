@@ -8,6 +8,18 @@
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"ms-vscode.cmake-tools",
+				"ms-vscode.cpptools-extension-pack",
+				"GitHub.vscode-pull-request-github",
+				"redhat.vscode-yaml"
+				
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
