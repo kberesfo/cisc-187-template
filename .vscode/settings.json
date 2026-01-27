@@ -8,6 +8,8 @@
 
   // Auto-configure on open (nice for class)
   "cmake.configureOnOpen": true,
+  "cmake.preferredGenerators": ["Ninja"],
+  "cmake.useCMakePresets": "never",
 
   // If you want Debug by default:
   "cmake.buildType": "Debug",
