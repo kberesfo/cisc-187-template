@@ -2,12 +2,18 @@
   "version": 3,
   "configurePresets": [
     {
-      "name": "dev",
+      "name": "base",
+      "hidden": true,
       "generator": "Unix Makefiles",
-      "binaryDir": "${sourceDir}/build",
+      "binaryDir": "${sourceDir}/build/${presetName}",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug"
       }
+    },
+    {
+      "name": "lab01",
+      "inherits": "base",
+      "cacheVariables": { "ACTIVE_LAB": "Lab01" }
     }
   ]
 }
