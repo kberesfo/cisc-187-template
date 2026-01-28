@@ -1,25 +1,14 @@
 {
-  // Build out-of-source
-  "cmake.sourceDirectory": "${workspaceFolder}",
-  "cmake.buildDirectory": "${workspaceFolder}/build",
-
-  // Use Ninja (fast + consistent in containers)
-  "cmake.generator": "Ninja",
-
-  // Auto-configure on open (nice for class)
-  "cmake.configureOnOpen": true,
-  "cmake.preferredGenerators": ["Ninja"],
   "cmake.useCMakePresets": "always",
+  "cmake.configureOnOpen": true,
 
-  // Optional: show compile commands for IntelliSense / clangd
+  // Optional but fine (CMake Tools mostly ignores these with presets)
+  "cmake.loggingLevel": "info",
   "cmake.exportCompileCommandsFile": true,
 
-  // Make the status bar + output less noisy
-  "cmake.loggingLevel": "info",
-
-  // format on save
+  // Formatting
   "editor.formatOnSave": true,
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
+  }
 }
