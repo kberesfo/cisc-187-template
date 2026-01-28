@@ -9,7 +9,7 @@
   // Auto-configure on open (nice for class)
   "cmake.configureOnOpen": true,
   "cmake.preferredGenerators": ["Ninja"],
-  "cmake.useCMakePresets": "never",
+  "cmake.useCMakePresets": "always",
 
   // Optional: show compile commands for IntelliSense / clangd
   "cmake.exportCompileCommandsFile": true,

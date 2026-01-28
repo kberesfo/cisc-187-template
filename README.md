@@ -22,3 +22,9 @@ git merge template/main --allow-unrelated-histories
 ```
 git remote remove template
 ```
+
+## Submodule
+
+```
+git submodule add <repo> labs
+```
