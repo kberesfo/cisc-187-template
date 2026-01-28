@@ -5,7 +5,6 @@
   // Optional but fine (CMake Tools mostly ignores these with presets)
   "cmake.loggingLevel": "info",
   "cmake.exportCompileCommandsFile": true,
-
   // Formatting
   "editor.formatOnSave": true,
   "[cpp]": {
