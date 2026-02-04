@@ -11,9 +11,29 @@
       }
     },
     {
+      "name": "binary-search-trees",
+      "inherits": "base",
+      "cacheVariables": { "ACTIVE_LAB": "binary-search-trees" }
+    },
+    {
+      "name": "binaryheaps",
+      "inherits": "base",
+      "cacheVariables": { "ACTIVE_LAB": "binaryheaps" }
+    },
+    {
+      "name": "graphs",
+      "inherits": "base",
+      "cacheVariables": { "ACTIVE_LAB": "graphs" }
+    },
+    {
       "name": "intro",
       "inherits": "base",
       "cacheVariables": { "ACTIVE_LAB": "intro" }
+    },
+    {
+      "name": "linked-lists",
+      "inherits": "base",
+      "cacheVariables": { "ACTIVE_LAB": "linked-lists" }
     }
   ]
 }
