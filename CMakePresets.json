@@ -11,9 +11,9 @@
       }
     },
     {
-      "name": "lab01",
+      "name": "intro",
       "inherits": "base",
-      "cacheVariables": { "ACTIVE_LAB": "Lab01" }
+      "cacheVariables": { "ACTIVE_LAB": "intro" }
     }
   ]
 }

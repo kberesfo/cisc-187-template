@@ -10,7 +10,6 @@
       "cwd": "${workspaceFolder}",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
-      "preLaunchTask": "CMake: Build"
     }
   ]
 }
